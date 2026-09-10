@@ -1,11 +1,8 @@
-Entrega 1: Tabela de Classificação
-Nesta etapa inicial, o foco é comprovar a extração de dados da API, o tratamento no Power Query e a criação da página de visão geral.
+Entrega 1: Tabela de Classificação e de Jogos
 
-Base de Dados: Endpoint de Classificação (/standings).
+Gráfico/Visual Principal: Tabela de Classificação do Campeonato e de Jogos
 
-Gráfico/Visual Principal: Matriz ou Tabela estruturada replicando a tabela real do campeonato de forma limpa.
-
-Funcionalidade Nova: Inserção de Imagens Dinâmicas (Escudos) via URL e Formatação Condicional (cores de fundo para destacar zonas de classificação e de rebaixamento).
+Funcionalidade: Tabela de classificação com visual de zonas de classificações e rebaixamento, e tabela de próximos jogos e jogos já finalizados com interação com a tabela de classificação onde ao clicar em um time será filtrados somente os jogos desse time.
 
 Entrega 2: Análise dos Times
 Aqui, você expande o modelo trazendo o histórico de jogos e focando exclusivamente na performance das equipes.
