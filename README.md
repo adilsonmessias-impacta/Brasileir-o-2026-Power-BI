@@ -1,32 +1,67 @@
-Entrega 1: Tabela de Classificação e de Jogos
+⚽ Dashboard Analítico de Futebol (Power BI & REST API)
+📖 Descrição do Projeto
+Este projeto consiste no desenvolvimento de um Dashboard Interativo no Power BI consumindo dados em tempo real da API pública football-data.org. O objetivo principal é realizar análises profundas sobre o Campeonato Brasileiro (Série A), demonstrando habilidades em extração de dados via web, tratamento complexo com Power Query (Linguagem M), modelagem de dados relacional e construção de métricas analíticas (DAX).
 
-Gráfico/Visual Principal: Tabela de Classificação do Campeonato e de Jogos
+O projeto foi planejado metodicamente para ser desenvolvido e avaliado em 4 entregas progressivas, adicionando camadas de complexidade analítica a cada fase.
 
-Funcionalidade: Tabela de classificação com visual de zonas de classificações e rebaixamento, e tabela de próximos jogos e jogos já finalizados com interação com a tabela de classificação onde ao clicar em um time será filtrados somente os jogos desse time.
+🛠️ Tecnologias Utilizadas
+Power BI: Visualização de dados e Data Storytelling.
 
-Entrega 2: Análise dos Times
-Aqui, você expande o modelo trazendo o histórico de jogos e focando exclusivamente na performance das equipes.
+Power Query / Linguagem M: Conexão com API (paginação, inserção de chaves no Header), extração, limpeza e tipagem de JSON.
 
-Base de Dados: Endpoint de Partidas (/matches).
+DAX: Criação de medidas de performance e cálculos lógicos.
 
-Gráfico/Visual Principal: Gráfico de Barras Empilhadas detalhando a proporção de gols marcados no 1º Tempo versus 2º Tempo para cada time.
+APIs REST: Extração de dados ao vivo com autenticação via Token.
 
-Funcionalidade Nova: Criação de Medidas DAX para análise tática, como o cálculo do "Fator Casa" (taxa de vitórias como mandante) e um Segmentador de Dados (Filtro) por clube.
+🚀 Entregas do Projeto (Roadmap)
+✅ Entrega 1: Visão Geral e Interatividade (Concluída)
+A primeira fase focou em estabelecer a infraestrutura de dados e a visão central do campeonato.
 
-Entrega 3: Análise dos Jogadores
-A complexidade aumenta ao isolar estatísticas individuais, respondendo quem são os grandes talentos da temporada.
+Bases Consumidas: Endpoints de Classificação (/standings) e Partidas (/matches).
 
-Base de Dados: Endpoint de Artilheiros (/scorers).
+Funcionalidades:
 
-Gráfico/Visual Principal: Gráfico de Dispersão cruzando Idade do jogador com a quantidade de Gols ou Assistências, revelando jovens promessas e veteranos eficazes.
+Criação de uma Tabela de Classificação realista, com os escudos dos times renderizados dinamicamente via URL de imagem.
 
-Funcionalidade Nova: Construção de um Tooltip (Dica de Ferramenta) customizado. Ao passar o mouse sobre o gráfico, um mini-painel flutuante revela a posição e a nacionalidade do atleta.
+Lista de partidas do campeonato detalhando rodadas e resultados parciais/finais.
 
-Entrega 4: Raio-X do Campeonato
-A entrega final consolida o projeto com uma visão macro e institucional do evento, sem focar em um clube ou jogador específico.
+Interatividade (Cross-Filtering): O painel possui filtros cruzados onde, ao clicar no escudo/nome de um time na tabela de classificação, a lista de jogos é automaticamente filtrada para exibir apenas o histórico e os confrontos futuros daquela equipe.
 
-Base de Dados: Endpoint de Clubes (/teams) relacionado com a tabela de Partidas.
+⏳ Entrega 2: Análise de Desempenho dos Times (Planejada)
+Aprofundamento nas estatísticas táticas para entender como e onde as equipes pontuam.
 
-Gráfico/Visual Principal: Gráfico de Linhas exibindo a sazonalidade e a média de gols por rodada ao longo do calendário.
+Bases Consumidas: Endpoint de Partidas (/matches) com separação de tempos.
 
-Funcionalidade Nova: Gráfico de Árvore (Treemap) e Rosca mapeando o volume de partidas por Estádio e a porcentagem global de resultados (Vitórias de Mandantes vs. Visitantes vs. Empates).
+Funcionalidades Previstas:
+
+Análise de "Fator Casa": Medidas DAX comparando o aproveitamento e vitórias como Mandante vs. Visitante.
+
+Gols por Tempo de Jogo: Gráficos mostrando a proporção de gols marcados no 1º Tempo vs. 2º Tempo para identificar equipes com melhor preparo físico/foco nas etapas finais.
+
+⏳ Entrega 3: Raio-X dos Elencos e Jogadores (Planejada)
+Nesta etapa, o projeto elevará o nível de Modelagem de Dados, conectando diferentes tabelas através de Chaves Primárias (IDs).
+
+Bases Consumidas: Endpoints de Artilheiros/Estatísticas (/scorers) relacionado com a base de Elencos Completos (/teams).
+
+Funcionalidades Previstas:
+
+Relacionamento de tabelas 1:N usando o ID do Jogador.
+
+Tabela visual com o Top Assistências ("Garçons") e Artilheiros.
+
+Análise demográfica do campeonato cruzando a Idade (calculada a partir da data de nascimento) vs. Desempenho, além de distribuição por Posição e Nacionalidade.
+
+⏳ Entrega 4: Visão Macro e Institucional do Campeonato (Planejada)
+A entrega final consolida o dashboard com estatísticas gerais do torneio, sem focar em um indivíduo ou clube específico.
+
+Bases Consumidas: Endpoint do Cadastro de Clubes (/teams).
+
+Funcionalidades Previstas:
+
+Gráfico de sazonalidade mostrando a média de gols marcados por rodada ao longo do tempo.
+
+Filtro e análise de volume de partidas/resultados por Estádio.
+
+Cards com indicadores chave gerais da temporada (Soma total de gols, Média de gols por jogo, Total de cartões/jogos).
+
+Status do Projeto: 🚧 Em desenvolvimento (Fase 1 de 4 concluída).
