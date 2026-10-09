@@ -24,7 +24,7 @@ A primeira fase focou em estabelecer a infraestrutura de dados e a visão centra
   - Lista de partidas do campeonato detalhando rodadas e resultados parciais/finais.
   - **Interatividade (Cross-Filtering):** O painel possui filtros cruzados onde, ao clicar no escudo/nome de um time na tabela de classificação, a lista de jogos é automaticamente filtrada para exibir apenas o histórico e os confrontos futuros daquela equipe.
 
-### ⏳ Entrega 2: Evolução de Desempenho e Temporalidade (Planejada)
+### ✅ Entrega 2: Evolução de Desempenho e Temporalidade (Concluída)
 
 Nesta fase, o foco será analisar a progressão das equipes ao longo da temporada, introduzindo conceitos de inteligência de tempo e segmentação de dados.
 - **Bases Consumidas:** Endpoint de Partidas (`/matches`), utilizando as colunas de data/hora e rodada para construção de um calendário analítico.
