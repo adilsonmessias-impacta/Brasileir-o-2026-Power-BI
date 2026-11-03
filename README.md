@@ -33,7 +33,7 @@ Nesta fase, o foco será analisar a progressão das equipes ao longo da temporad
   - **Cálculo de Aproveitamento:** Criação de métricas com DAX para medir a taxa de aproveitamento (percentual de pontos ganhos em relação aos disputados) de forma dinâmica.
   - **Filtros de Tempo Dinâmicos:** Implementação de segmentadores de dados por **Mês** e por **Rodada**, permitindo ao usuário "viajar no tempo" e analisar a performance e a tabela em recortes temporais específicos.
 
-### ⏳ Entrega 3: Raio-X dos Elencos e Jogadores (Planejada)
+### ⏳ Entrega 3: Raio-X dos Elencos e Jogadores (Concluída)
 
 Nesta etapa, o projeto elevará o nível de **Modelagem de Dados**, conectando diferentes tabelas através de Chaves Primárias (IDs).
 - **Bases Consumidas:** Endpoints de Artilheiros/Estatísticas (`/scorers`) relacionado com a base de Elencos Completos (`/teams`).
