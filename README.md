@@ -38,7 +38,6 @@ Nesta fase, o foco será analisar a progressão das equipes ao longo da temporad
 Nesta etapa, o projeto elevará o nível de **Modelagem de Dados**, conectando diferentes tabelas através de Chaves Primárias (IDs).
 - **Bases Consumidas:** Endpoints de Artilheiros/Estatísticas (`/scorers`) relacionado com a base de Elencos Completos (`/teams`).
 - **Funcionalidades Previstas:** 
-  - Relacionamento de tabelas 1:N usando o `ID do Jogador`.
   - Tabela visual com o Top Assistências, Artilheiros e jogadores com mais partidas.
 
 ### ⏳ Entrega 4: Visão Macro e Institucional do Campeonato (Planejada)
