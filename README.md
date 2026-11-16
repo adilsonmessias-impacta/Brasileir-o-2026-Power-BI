@@ -40,7 +40,7 @@ Nesta etapa, o projeto elevará o nível de **Modelagem de Dados**, conectando d
 - **Funcionalidades Previstas:** 
   - Tabela visual com o Top Assistências, Artilheiros e jogadores com mais partidas.
 
-### ✅ PROVA: Visão Macro e Institucional do Campeonato (Planejada)
+### ✅ PROVA: Visão Macro e Institucional do Campeonato (Concluída)
 
 A entrega final consolida o dashboard com estatísticas gerais do torneio, sem focar em um indivíduo ou clube específico.
 - **Bases Consumidas:** Endpoint do Cadastro de Clubes (`/matches`).
