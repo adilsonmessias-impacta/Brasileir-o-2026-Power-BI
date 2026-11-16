@@ -40,14 +40,14 @@ Nesta etapa, o projeto elevará o nível de **Modelagem de Dados**, conectando d
 - **Funcionalidades Previstas:** 
   - Tabela visual com o Top Assistências, Artilheiros e jogadores com mais partidas.
 
-### ⏳ Entrega 4: Visão Macro e Institucional do Campeonato (Planejada)
+### ✅ PROVA: Visão Macro e Institucional do Campeonato (Planejada)
 
 A entrega final consolida o dashboard com estatísticas gerais do torneio, sem focar em um indivíduo ou clube específico.
 - **Bases Consumidas:** Endpoint do Cadastro de Clubes (`/matches`).
 - **Funcionalidades Previstas:** 
-  - Gráfico de sazonalidade mostrando a média de gols marcados por rodada ao longo do tempo.
-  - Cards com indicadores chave gerais da temporada (Soma total de gols, Média de gols por jogo, Total de jogos).
+  - Gráfico de sazonalidade mostrando o total de gols marcados por rodada ao longo do tempo.
+  - Cards com indicadores chave gerais da temporada (Soma total de gols, Média de gols por jogo, Total de jogos finalizados e restantes).
 
 ---
 
-> **Status do Projeto:** 🚧 Em desenvolvimento (Fase 1 de 4 concluída).
+> **Status do Projeto:** Finalizado (Fase 4 de 4 concluída).
