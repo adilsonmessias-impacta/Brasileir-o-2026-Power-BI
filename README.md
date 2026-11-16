@@ -45,7 +45,7 @@ Nesta etapa, o projeto elevará o nível de **Modelagem de Dados**, conectando d
 A entrega final consolida o dashboard com estatísticas gerais do torneio, sem focar em um indivíduo ou clube específico.
 - **Bases Consumidas:** Endpoint do Cadastro de Clubes (`/matches`).
 - **Funcionalidades Previstas:** 
-  - Gráfico de sazonalidade mostrando o total de gols marcados por rodada ao longo do tempo.
+  - Gráfico de sazonalidade mostrando o total de jogos e gols marcados por rodada e ao longo do tempo.
   - Cards com indicadores chave gerais da temporada (Soma total de gols, Média de gols por jogo, Total de jogos finalizados e restantes).
 
 ---
